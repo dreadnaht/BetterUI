@@ -1,4 +1,4 @@
-# BetterUI V1.0.0 - LessonLethal | CLIENT SIDE 🎈
+# BetterUI V1.0.1 - LessonLethal | CLIENT SIDE 🎈
 
 [![Latest Version](https://img.shields.io/thunderstore/v/LessonLethal/BetterUI?logo=thunderstore&logoColor=white)](https://thunderstore.io/c/lethal-company/p/LessonLethal/BetterUI)
 [![Total Downloads](https://img.shields.io/thunderstore/dt/LessonLethal/BetterUI?logo=thunderstore&logoColor=white)](https://thunderstore.io/c/lethal-company/p/LessonLethal/BetterUI)
