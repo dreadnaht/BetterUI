@@ -1,5 +1,8 @@
 # BetterUI V1.0.0 - LessonLethal | CLIENT SIDE 🎈
 
+[![Latest Version](https://img.shields.io/thunderstore/v/LessonLethal/BetterUI?logo=thunderstore&logoColor=white)](https://thunderstore.io/c/lethal-company/p/LessonLethal/BetterUI)
+[![Total Downloads](https://img.shields.io/thunderstore/dt/LessonLethal/BetterUI?logo=thunderstore&logoColor=white)](https://thunderstore.io/c/lethal-company/p/LessonLethal/BetterUI)
+
 ![Icon](https://i.imgur.com/5q7PhSA.png)
 
 Makes several improvements to the UI and an addition performance boost. Set hotkeys to toggle on and off the HUD, FPS, or Clock. Chat will fade out when not being used. View the clock while inside a building or the ship.
