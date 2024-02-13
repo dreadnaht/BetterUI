@@ -1,21 +1,21 @@
-# BetterUI V1.0.1 - LessonLethal | CLIENT SIDE 🎈
+# BetterUI v1.0.2 - LessonLethal | CLIENT SIDE 🎈
 
 [![Latest Version](https://img.shields.io/thunderstore/v/LessonLethal/BetterUI?logo=thunderstore&logoColor=white)](https://thunderstore.io/c/lethal-company/p/LessonLethal/BetterUI)
 [![Total Downloads](https://img.shields.io/thunderstore/dt/LessonLethal/BetterUI?logo=thunderstore&logoColor=white)](https://thunderstore.io/c/lethal-company/p/LessonLethal/BetterUI)
 
-![Icon](https://i.imgur.com/5q7PhSA.png)
+![Banner](https://i.imgur.com/1OexyaD.png)
 
-Makes several improvements to the UI and an addition performance boost. Set hotkeys to toggle on and off the HUD, FPS, or Clock. Chat will fade out when not being used. View the clock while inside a building or the ship.
+Better Controls for HUD, Clock, Chat, and FPS with Addition Hotkeys
 
 # FEATURES 📃
 
 ### 👉 UI/HUD
-You can toggle on and off the visibility of all UI elements on the screen, with the push of a hotkey that you can set.
+You can toggle on and off the visibility of all UI/HUD elements on the screen, with the push of a hotkey that you can set.
 
 ```Default Hotkey: Keypad7```
 
 ### 👉 FPS
-  Adds a FPS monitor/counter to the top right corner of the screen that is simple and small. You can toggle it on and off with the push of a hotkey that you can set. It's off by default.
+Adds a FPS counter to the top right corner of the screen that is simple and small. You can toggle it on and off with the push of a hotkey that you can set. It's off by default.
   
 ```Default Hotkey: Keypad8```
 
@@ -25,10 +25,17 @@ By default, a player can only see the time of day when outside on a moon. With t
 ```Default Hotkey: Keypad9```
 
 ### 👉 CHAT
-Changes the chat area to fade out when not being used. It will appear again if you recieve or want to send a message. *The chat area is affect when you toggle the hotkey for UI/HUD visibility.*
+Changes the chat area to fade out when not being used. It will appear again if you receive or want to send a message. *The chat area is affected when you toggle the hotkey for UI/HUD visibility.*
 
-### 👉 PERFORMANCE
-Turns off vSync and sets max FPS to 500. (I'm working on adding these as options in the config)
+### 👉 FRAME RATE
+Set Target Frame Rate to 500 and turn vSync OFF with a config setting.
+
+```default: false```
+
+### 👉 SMOOTH CLOCK
+Smooth the speed of time on the clock with a config setting.
+
+```default: true```
 
 # CONFIGURATION ⚙
 ### Run the game once after installing this mod for it to create the config file.
@@ -40,7 +47,7 @@ Default value: Keypad7
 ```
 
 ```
-FPSKeybind - Hotkey to toggle the visibility of a simple FPS monitor located top right.
+FPSKeybind - Hotkey to toggle the visibility of a simple FPS counter located top right.
 (FPS monitor/counter hidden by default)
 Default value: Keypad8
 ```
@@ -49,6 +56,16 @@ Default value: Keypad8
 ClockKeybind - Hotkey to toggle the visibility of the clock when you're inside the facility, mansion, or ship. 
 (Clock hidden by default inside the facility, mansion, or ship)
 Default value: Keypad9
+```
+
+```
+FrameRateOverride - Set Target Frame Rate to 500 and turn vSync OFF
+Default value: False
+```
+
+```
+SmoothTimeOverride - Smooth the speed of time on the clock (appearance only)
+Default value: True
 ```
 
 # Installation 🛠
@@ -89,19 +106,15 @@ BepinEx
 ```
 
 # TODO 📝
-- Add a list to this readme of all keyboard shortcuts that can be used when setting hotkeys.
-  - Make the mod do a check for those inputs.
-- Add addition performance boosts.
-  - More to come on that...
+- Add a list to this README of all keyboard shortcuts possible when setting hotkeys.
 - Add support for [InputUtils](https://thunderstore.io/c/lethal-company/p/Rune580/LethalCompany_InputUtils/)
-
 
 # Contact
 Discord: @[tyleroutcast](https://discord.com/users/235518194612305920)
 
 # Credits
-Thanks to the following who inspired this project:
-- [BlueAmulet](https://thunderstore.io/c/lethal-company/p/BlueAmulet/)
-- [Cookies](https://thunderstore.io/c/lethal-company/p/Cookies/)
-- [Monkeytype](https://thunderstore.io/c/lethal-company/p/Monkeytype/)
-- [Solar32](https://thunderstore.io/c/lethal-company/p/Solar32/)
+Thanks to the following who helped and inspired this project:
+- [BlueAmulet](https://thunderstore.io/c/lethal-company/p/BlueAmulet/) - LCBetterClock: smooth time updating
+- [Cookies](https://thunderstore.io/c/lethal-company/p/Cookies/) - NoHUD
+- [Monkeytype](https://thunderstore.io/c/lethal-company/p/Monkeytype/) - HideChat
+- [Solar32](https://thunderstore.io/c/lethal-company/p/Solar32/) - PerformanceEnhancer: fps & frame rate changes
