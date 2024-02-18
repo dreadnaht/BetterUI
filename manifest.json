@@ -1,9 +1,9 @@
 {
     "name": "BetterUI",
-    "version_number": "1.0.2",
+    "version_number": "1.1.0",
 	"author": "LessonLethal",
     "website_url": "https://github.com/LessonLethal/BetterUI",
-    "description": "Better Controls for HUD, Clock, Chat, and FPS with Addition Hotkeys",
+    "description": "Custom Settings & Hotkeys for the HUD, FPS, Clock, and Chat",
     "dependencies": [
         "BepInEx-BepInExPack-5.4.2100"
     ]
