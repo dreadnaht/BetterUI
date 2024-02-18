@@ -124,12 +124,28 @@ ___
 ___
 ___
 
-# TO DO LIST 📝
-- Add support for [InputUtils](https://thunderstore.io/c/lethal-company/p/Rune580/LethalCompany_InputUtils/)
-- Add a small conductive indicator (lightning bolt) to the icon of conductive items in your inventory. (Defaulted OFF)
-- Add the quota (worth) of an item to its icon when in your inventory. (Defaulted OFF)
-- Add a health bar indicator. (Defaulted OFF)
-- Add a fear bar indicator. (Defaulted OFF)
+## TO DO LIST 📝
+- ⌨ **Integrate InputUtils**: Add support for the popular mod [InputUtils](https://thunderstore.io/c/lethal-company/p/Rune580/LethalCompany_InputUtils/)
+  - The mod adds an interface in the settings menu to change the hotkeys that mods like this create, which normally you can only change in the config.
+- ⚡ **Conductivity Indication**: Add two separate ways that you can change the UI to indicate that you're conductive.
+  - **HUD Conductivity**: A single indicator to the HUD that will only appear when you are holding a conductive item.
+  - **Inventory Conductivity**: A indicator to the icon of any conductive items that are in your inventory.
+  - The indicator used should likely be a lightning bolt. For icons the indicator will appear in a corner.
+  - This feature would only run when on a moon that has lightning occurring. This would help performance.
+- 💰 **Inventory Item Value**: Add the quota value to the items icons in your inventory. *(suggested by @paradox75831004)*
+  - The quota value should likely be displayed near the top or the bottom of the icon.
+- 🔧 **Custom Positioning**: Add the option to change the position of the HUD elements, in the config. *(suggested by @slashsgt)*
+  - Changing a position could be changing the X and Y screen values and/or selecting from a list of predefined areas.
+- 🎭 **HUD Styling**: Add the option to change the style of different HUD elements, in the config. 
+  - Changing a style would be selecting from a list of predefined styles for each element.
+- ❤ **Health Meter**: Add a health meter to the HUD, with custom positioning and alternative styles.
+  - This could either be a bar meter or just a number value.
+- 🧭 **Compass**: Add a compass, with custom positioning and alternative styles.
+  - Fallout style compass. *(suggested by @slashsgt)*
+- 😨 **Sanity Meter**: Add a sanity meter to the HUD, with custom positioning and alternative styles.
+  - Knowing sanity is useful because a lower sanity you have, the more likely a girl or bracken will target you, and more.
+  
+*\*Note: All features added will be Disabled by default.*
 
 # Contact
 Discord: [@tyleroutcast](https://discord.com/users/235518194612305920)
@@ -137,12 +153,14 @@ Discord: [@tyleroutcast](https://discord.com/users/235518194612305920)
 Github: [@LessonLethal](https://github.com/LessonLethal)
 
 # Credits
-Special thanks to the following who helped and inspired this project:
+Thank you to those who have helped, tested, and/or contributed to this mod:
 - @paradox75831004 - For testing and providing suggestions to make this mod better
-- [BlueAmulet](https://thunderstore.io/c/lethal-company/p/BlueAmulet/) - LCBetterClock: fast time updating
+
+Thank you to the developers who made the mods that inspired this mod:
+- [BlueAmulet](https://thunderstore.io/c/lethal-company/p/BlueAmulet/) - LCBetterClock
 - [Cookies](https://thunderstore.io/c/lethal-company/p/Cookies/) - NoHUD
 - [Monkeytype](https://thunderstore.io/c/lethal-company/p/Monkeytype/) - HideChat
-- [Solar32](https://thunderstore.io/c/lethal-company/p/Solar32/) - PerformanceEnhancer: fps & frame rate changes
+- [Solar32](https://thunderstore.io/c/lethal-company/p/Solar32/) - PerformanceEnhancer
 ___
 ___
 
