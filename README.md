@@ -6,7 +6,7 @@
 [![Total Downloads](https://img.shields.io/thunderstore/dt/LessonLethal/BetterUI?logo=thunderstore&logoColor=white)](https://thunderstore.io/c/lethal-company/p/LessonLethal/BetterUI)
 
 ### Custom Settings & Hotkeys for the HUD, FPS, Clock, and Chat
-*To support future development of this mod, [buy us a coffee here!](https://paypal.me/hughestyler?country.x=US&locale.x=en_US)*
+*To support future development of this mod, [buy me a coffee here!](https://paypal.me/hughestyler)*
 
 # FEATURES 📃
 
