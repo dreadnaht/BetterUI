@@ -124,10 +124,12 @@ ___
 ___
 ___
 
-# TODO 📝
+# TO DO LIST 📝
 - Add support for [InputUtils](https://thunderstore.io/c/lethal-company/p/Rune580/LethalCompany_InputUtils/)
-- Add a conductive notification on the items icon.
-- Add an items worth to its icon.
+- Add a small conductive indicator (lightning bolt) to the icon of conductive items in your inventory. (Defaulted OFF)
+- Add the quota (worth) of an item to its icon when in your inventory. (Defaulted OFF)
+- Add a health bar indicator. (Defaulted OFF)
+- Add a fear bar indicator. (Defaulted OFF)
 
 # Contact
 Discord: [@tyleroutcast](https://discord.com/users/235518194612305920)
