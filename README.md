@@ -16,7 +16,7 @@
 >  Use this to disable your HUD when you want to take screenshots, video, etc.
 - Toggle your HUD ON and OFF with a hotkey.
 - Hides the entire HUD, except the visor. Does NOT hide menus.
-> ✔️ **ENABLED** by Default. [Visit **Configuration** Section Below](#CONFIGURATION)
+> ✔️ **ENABLED** by Default. [Visit **Configuration** Section Below](#configuration-)
 
 ```Default Hotkey: Keypad7```
 
@@ -25,7 +25,7 @@
 - Toggle the FPS counter ON and OFF with a hotkey. OFF by default.
 - Located at the top right corner of the screen. *Small and white...*
 - You can change both the font size and color of the counter.
-> ✔️ **ENABLED** by Default. [Visit **Configuration** Section Below](#CONFIGURATION)
+> ✔️ **ENABLED** by Default. [Visit **Configuration** Section Below](#configuration-)
 
 ``` Default Hotkey: Keypad8 ```
 
@@ -35,7 +35,7 @@
 - Affects only the visibility of clock inside the ship or a building.
 - Until you use the hotkey, the clock when inside will stay at the vanilla 0% visibility.
 - You can change the visibility of the (toggled ON) inside clock. By default it's set to 30% (0.3) visibility.
-> ✔️ **ENABLED** by Default. [Visit **Configuration** Section Below](#CONFIGURATION)
+> ✔️ **ENABLED** by Default. [Visit **Configuration** Section Below](#configuration-)
 
 ``` Default Hotkey: Keypad9```
 
@@ -44,7 +44,7 @@
 - Change the clock to update in real time, affects appearance only.
 - The time shown on the clock will appear to flow smoother because it is being updated much faster.
 
-> ❌ **DISABLED** by Default. [Visit **Configuration** Section Below](#CONFIGURATION)
+> ❌ **DISABLED** by Default. [Visit **Configuration** Section Below](#configuration-)
 
 ## 👉 CHAT AUTO FADE
 > Feature for those who don't want to see the chat box when not using it.
@@ -52,7 +52,7 @@
 - It will appear again if you receive or want to send a message.
 - The chat area is affected when you toggle the hotkey for UI/HUD visibility.
 
-> ✔️ **ENABLED** by Default. [Visit **Configuration** Section Below](#CONFIGURATION)
+> ✔️ **ENABLED** by Default. [Visit **Configuration** Section Below](#configuration-)
 
 ## 👉 INCREASE TARGET FRAME RATE 
 > **Experimental:** Use to increase maximum FPS possible. Not recommended for slower computers. 
@@ -61,7 +61,7 @@
 - Shows a wider range with the FPS counter enabled.
 - Can affect performance, but not made for that.
 
-> ❌ **DISABLED** by Default. [Visit **Configuration** Section Below](#CONFIGURATION)
+> ❌ **DISABLED** by Default. [Visit **Configuration** Section Below](#configuration-)
 
 ___
 
