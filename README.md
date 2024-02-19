@@ -122,7 +122,7 @@ ___
 
 ___
 
-### How To Edit Config File:
+### How To Edit Config File
 1. Open the **R2ModMan** program
 2. Load the profile with **the mod of the config you want to edit**
 3. After profile loads, click `Config editor` in the left side menu
@@ -130,7 +130,7 @@ ___
 5. Click anywhere on the mod name to expand it
 5. Click the `Edit Config` button
 
-### How To Delete Config File:
+### How To Delete Config File
 1. Complete steps **1 through 5** on the **How To Edit Config File** guide listed above.
 2. Select the `Delete` button
 
@@ -141,7 +141,7 @@ ___
 ___
 ___
 
-# Credits
+# Credits 👑
 Thank you to those who have helped, tested, and/or contributed to this mod:
 - @paradox75831004 - For testing and providing suggestions to make this mod better
 
@@ -155,7 +155,7 @@ Thank you to the developers who made the mods that inspired this mod:
 
 ___
 
-# Contact
+# Contact 📞
 
 **Discord:** [@tyleroutcast](https://discord.com/users/235518194612305920)
 
@@ -205,7 +205,7 @@ ___
 
 > ***Important:** Run the game once after installing this mod for it to create the config file*
 
-### Installing From A Profile: (Option A)
+## Installing From A Profile: (Option A)
 1. **Open the R2ModMan program**
 2. Select the profile you want to add this mod to and then click the `Select profile` button
 3. On the left side under **MODS** category, click the `Online` option
@@ -214,7 +214,7 @@ ___
 6. Click on the `Download` button
 7. Click on the `Download with dependencies` button
 
-### Installing From Thunderstore Website: (Option B)
+## Installing From Thunderstore Website: (Option B)
 1. [Go to the Thunderstore page for this mod](https://thunderstore.io/c/lethal-company/p/LessonLethal/BetterUI/)
 2. Click `Install with Mod Manager`
 3. If there is a pop up asking you to *confirm opening a link with r2modman*, click the confirm button
@@ -229,7 +229,7 @@ ___
 
 > [Referenced From This Documentation Page by Unity](https://docs.unity3d.com/ScriptReference/KeyCode.html)
 
-#### Use the `Value` column to find the hotkey you want to use then copy and paste the value into the config
+**Use the `Value` column to find the hotkey you want to use then copy and paste the value into the config**
 
 | Value           | Value Description                                                               |
 |---------------|---------------------------------------------------------------------------|
