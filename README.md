@@ -1,4 +1,4 @@
-# BetterUI v1.1.0 - LessonLethal 💎
+# BetterUI v1.1.0 - [LessonLethal](https://linktr.ee/lessonlethal)
 
 ![Banner](https://i.imgur.com/hjSTjPn.png)
 
@@ -161,8 +161,10 @@ ___
 
 **Github:** [@LessonLethal](https://github.com/LessonLethal)
 
+**[My Linktree](https://linktr.ee/lessonlethal)**
+
 ___
-If you enjoy my mod and want to support future development, [buy me a coffee here.](https://paypal.me/hughestyler)
+If you enjoy my mod and want to support future development, [buy me a coffee here.](https://linktr.ee/lessonlethal)
 ___
 ___
 
