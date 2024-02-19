@@ -79,14 +79,14 @@ ___
   - `true` -> Enables `HUD_Hotkey`
   - `false` -> Disables `HUD_Hotkey`
 - `HUD_Hotkey` -> Type: KeyboardShortcut -> Default: `Keypad7`
-  - Visit the [**List of KeyboardShort Values**](#list-of-keyboardshortcut-values) at bottom of page
+  - Visit the [**List of KeyboardShort Values**](#list-of-keyboardshortcut-values-) at bottom of page
 
 ## ⏭ FPS SETTINGS
 - `Enable_FPS` -> Type: Boolean -> Default: `true`
   - `true` -> Enables `FPS_Hotkey`
   - `false` -> Disables `FPS_Hotkey`
 - `FPS_Hotkey` -> Type: KeyboardShortcut -> Default: `Keypad8`
-  - Visit the [**List of KeyboardShort Values**](#list-of-keyboardshortcut-values) at bottom of page
+  - Visit the [**List of KeyboardShort Values**](#list-of-keyboardshortcut-values-) at bottom of page
 - `FPS_Font_Size` -> Type: Int -> Default: `13`
   - Anywhere between `10` to `18` will work fine
   - Rounded numbers only
@@ -98,7 +98,7 @@ ___
   - `true` -> Enables `Clock_Hotkey`
   - `false` -> Disables `Clock_Hotkey`
 - `Clock_Hotkey` -> Type: KeyboardShortcut -> Default: `Keypad9`
-  - Visit the [**List of KeyboardShort Values**](#list-of-keyboardshortcut-values) at bottom of page
+  - Visit the [**List of KeyboardShort Values**](#list-of-keyboardshortcut-values-) at bottom of page
 - `Clock_Inside_Visibility` -> Type: Float -> Default: `0.3f`
   - `0f` = 0% Visibility of Inside Clock
   - `0.3f` = 30% Visibility of Inside Clock
