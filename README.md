@@ -1,4 +1,4 @@
-# BetterUI v1.1.0 - LessonLethal 🎈
+# BetterUI v1.1.0 - LessonLethal 💎
 
 ![Banner](https://i.imgur.com/hjSTjPn.png)
 
@@ -6,9 +6,12 @@
 [![Total Downloads](https://img.shields.io/thunderstore/dt/LessonLethal/BetterUI?logo=thunderstore&logoColor=white)](https://thunderstore.io/c/lethal-company/p/LessonLethal/BetterUI)
 
 ### Custom Settings & Hotkeys for the HUD, FPS, Clock, and Chat
-*To support future development of this mod, [buy me a coffee here!](https://paypal.me/hughestyler)*
 
-# FEATURES 📃
+> *Want to ask questions, provide feedback, or contribute? Contact me  [Discord](https://discord.com/users/235518194612305920) or [Github](https://github.com/LessonLethal/BetterUI/issues).*
+
+___
+
+# FEATURES 💡
 
 **COMPATIBILITY:** To deal with mod conflict, every feature in this mod can be individually enabled or disabled.
 
@@ -62,44 +65,40 @@
 - Can affect performance, but not made for that.
 
 > ❌ **DISABLED** by Default. [Visit **Configuration** Section Below](#configuration-)
-
+___
+> *Having issues with this mod? Contact me on [Discord](https://discord.com/users/235518194612305920) or [Github](https://github.com/LessonLethal/BetterUI/issues).*
+___
 ___
 
 # CONFIGURATION ⚙
 
-##### *INSTALLING MOD:* Run the game once after installing this mod for it to create the config file.
+> Having issues with the config file? Try deleting the config file, and then run the game again to create a new config file. 
 
-##### *UPDATING MOD:* Delete the config file and run the game to create the new config file. (Only necessary when update changes config settings)
-
-##### CHANGE CONFIG - R2ModMan: After loading a profile, select the 'Config Editor' then search for ```BepInEx/config/LessonLethal.BetterUI.cfg``` and edit it from there.
-
-##### CHANGE CONFIG - Manual: In most cases you can find the config file located at ```BepInEx/config/LessonLethal.BetterUI.cfg``` then just open it with a text editor.
-
-## 🛠️ HUD SETTINGS
+## ⏭ HUD SETTINGS
 - `Enable_HUD` -> Type: Boolean -> Default: `true`
   - `true` -> Enables `HUD_Hotkey`
   - `false` -> Disables `HUD_Hotkey`
 - `HUD_Hotkey` -> Type: KeyboardShortcut -> Default: `Keypad7`
-  - [Visit **List of KeyboardShort Values** at the bottom](#list-of-keyboardshortcut-values)
+  - Visit the [**List of KeyboardShort Values**](#list-of-keyboardshortcut-values) at bottom of page
 
-## 🛠️ FPS SETTINGS
+## ⏭ FPS SETTINGS
 - `Enable_FPS` -> Type: Boolean -> Default: `true`
   - `true` -> Enables `FPS_Hotkey`
   - `false` -> Disables `FPS_Hotkey`
 - `FPS_Hotkey` -> Type: KeyboardShortcut -> Default: `Keypad8`
-  - [Visit **List of KeyboardShort Values** at the bottom](#list-of-keyboardshortcut-values)
+  - Visit the [**List of KeyboardShort Values**](#list-of-keyboardshortcut-values) at bottom of page
 - `FPS_Font_Size` -> Type: Int -> Default: `13`
   - Anywhere between `10` to `18` will work fine
   - Rounded numbers only
 - `FPS_Font_Color` -> Type: String -> Default: `#FFFFFF`
-  - [Visit Googles HEX Color Picker](https://g.co/kgs/Z3zb5f3)
+  - Visit the [**Google HEX Color Picker**](https://g.co/kgs/Z3zb5f3) for help with color
   
-## 🛠️ CLOCK SETTINGS
+## ⏭ CLOCK SETTINGS
 - `Enable_Clock` -> Type: Boolean -> Default: `true`
   - `true` -> Enables `Clock_Hotkey`
   - `false` -> Disables `Clock_Hotkey`
 - `Clock_Hotkey` -> Type: KeyboardShortcut -> Default: `Keypad9`
-  - [Visit **List of KeyboardShort Values** at the bottom](#list-of-keyboardshortcut-values)
+  - Visit the [**List of KeyboardShort Values**](#list-of-keyboardshortcut-values) at bottom of page
 - `Clock_Inside_Visibility` -> Type: Float -> Default: `0.3f`
   - `0f` = 0% Visibility of Inside Clock
   - `0.3f` = 30% Visibility of Inside Clock
@@ -111,46 +110,36 @@ ___
   - `true` -> Changes the clock to update faster
   - `false` -> Doesn't affect the clock
   
-## 🛠️ CHAT SETTINGS
+## ⏭ CHAT SETTINGS
 - `Auto_Fade_Chat` -> Type: Boolean -> Default: `true`
   - `true` -> Enables the auto fading chat box
   - `false` -> Doesn't affect the chat box
   
-## 🛠️ EXPERIMENTAL SETTINGS
+## ⏭ EXPERIMENTAL SETTINGS
 - `Frame_Rate_Override` -> Type: Boolean -> Default: `false`
   - `true` -> Sets target frame rate to 500 and turns off vSync
   - `false` -> Doesn't affect any display settings
 
 ___
+
+### How To Edit Config File:
+1. Open the **R2ModMan** program
+2. Load the profile with **the mod of the config you want to edit**
+3. After profile loads, click `Config editor` in the left side menu
+4. Search for `LessonLethal.BetterUI`
+5. Click anywhere on the mod name to expand it
+5. Click the `Edit Config` button
+
+### How To Delete Config File:
+1. Complete steps **1 through 5** on the **How To Edit Config File** guide listed above.
+2. Select the `Delete` button
+
+**Important Note:** Sometimes after a large update the config file may no longer work correctly and needs to be deleted, and the guide I listed above is an easy way to that. *This is not necessary after every update.*
+
 ___
-
-## TO DO LIST 📝
-- ⌨ **Integrate InputUtils**: Add support for the popular mod [InputUtils](https://thunderstore.io/c/lethal-company/p/Rune580/LethalCompany_InputUtils/)
-  - The mod adds an interface in the settings menu to change the hotkeys that mods like this create, which normally you can only change in the config.
-- ⚡ **Conductivity Indication**: Add two separate ways that you can change the UI to indicate that you're conductive.
-  - **HUD Conductivity**: A single indicator to the HUD that will only appear when you are holding a conductive item.
-  - **Inventory Conductivity**: A indicator to the icon of any conductive items that are in your inventory.
-  - The indicator used should likely be a lightning bolt. For icons the indicator will appear in a corner.
-  - This feature would only run when on a moon that has lightning occurring. This would help performance.
-- 💰 **Inventory Item Value**: Add the quota value to the items icons in your inventory. *(suggested by @paradox75831004)*
-  - The quota value should likely be displayed near the top or the bottom of the icon.
-- 🔧 **Custom Positioning**: Add the option to change the position of the HUD elements, in the config. *(suggested by @slashsgt)*
-  - Changing a position could be changing the X and Y screen values and/or selecting from a list of predefined areas.
-- 🎭 **HUD Styling**: Add the option to change the style of different HUD elements, in the config. 
-  - Changing a style would be selecting from a list of predefined styles for each element.
-- ❤ **Health Meter**: Add a health meter to the HUD, with custom positioning and alternative styles.
-  - This could either be a bar meter or just a number value.
-- 🧭 **Compass**: Add a compass, with custom positioning and alternative styles.
-  - Fallout style compass. *(suggested by @slashsgt)*
-- 😨 **Sanity Meter**: Add a sanity meter to the HUD, with custom positioning and alternative styles.
-  - Knowing sanity is useful because a lower sanity you have, the more likely a girl or bracken will target you, and more.
-  
-*\*Note: All features added will be Disabled by default.*
-
-# Contact
-Discord: [@tyleroutcast](https://discord.com/users/235518194612305920)
-
-Github: [@LessonLethal](https://github.com/LessonLethal)
+> *Want to ask questions, provide feedback, or contribute? Contact me  [Discord](https://discord.com/users/235518194612305920) or [Github](https://github.com/LessonLethal/BetterUI/issues).*
+___
+___
 
 # Credits
 Thank you to those who have helped, tested, and/or contributed to this mod:
@@ -161,49 +150,87 @@ Thank you to the developers who made the mods that inspired this mod:
 - [Cookies](https://thunderstore.io/c/lethal-company/p/Cookies/) - NoHUD
 - [Monkeytype](https://thunderstore.io/c/lethal-company/p/Monkeytype/) - HideChat
 - [Solar32](https://thunderstore.io/c/lethal-company/p/Solar32/) - PerformanceEnhancer
+
+> Please [contact me](https://github.com/LessonLethal) if you would like to update or remove your credit
+
+___
+
+# Contact
+
+**Discord:** [@tyleroutcast](https://discord.com/users/235518194612305920)
+
+**Github:** [@LessonLethal](https://github.com/LessonLethal)
+
+___
+If you enjoy my mod and want to support future development, [buy me a coffee here.](https://paypal.me/hughestyler)
+___
+___
+
+# TO DO LIST 📝
+
+- ⌨ `Integrate InputUtils`: Add support for the popular mod [InputUtils](https://thunderstore.io/c/lethal-company/p/Rune580/LethalCompany_InputUtils/)
+  - The mod adds an interface in the settings menu to change the hotkeys that mods like this create, which normally you can only change in the config.
+
+- ⚡ `Conductivity Indication`: Add two separate ways that you can change the UI to indicate that you're conductive.
+  - **HUD Conductivity**: A single indicator to the HUD that will only appear when you are holding a conductive item.
+  - **Inventory Conductivity**: A indicator to the icon of any conductive items that are in your inventory.
+  - The indicator used should likely be a lightning bolt. For icons the indicator will appear in a corner.
+  - This feature would only run when on a moon that has lightning occurring. This would help performance.
+
+- 💰 `Inventory Item Value`: Add the quota value to the items icons in your inventory. *(suggested by @paradox75831004)*
+  - The quota value should likely be displayed near the top or the bottom of the icon.
+
+- 🔧 `Custom Positioning`: Add the option to change the position of the HUD elements, in the config. *(suggested by @slashsgt)*
+  - Changing a position could be changing the X and Y screen values and/or selecting from a list of predefined areas.
+
+- 🎭 `HUD Styling`: Add the option to change the style of different HUD elements, in the config. 
+  - Changing a style would be selecting from a list of predefined styles for each element.
+
+- ❤ `Health Meter`: Add a health meter to the HUD, with custom positioning and alternative styles.
+  - This could either be a bar meter or just a number value.
+
+- 🧭 `Compass`: Add a compass, with custom positioning and alternative styles.
+  - Fallout style compass. *(suggested by @slashsgt)*
+
+- 😨 `Sanity Meter`: Add a sanity meter to the HUD, with custom positioning and alternative styles.
+  - Knowing sanity is useful because a lower sanity you have, the more likely a girl or bracken will target you, and more.
+  
+***Note:** All features added will be Disabled by default.*
+___
+> *Want to ask questions, provide feedback, or contribute? Contact me  [Discord](https://discord.com/users/235518194612305920) or [Github](https://github.com/LessonLethal/BetterUI/issues).*
 ___
 ___
 
 # Installation ⛓️
 
-## R2ModMan or Thunderstore Manager (recommended)
+> ***Important:** Run the game once after installing this mod for it to create the config file*
 
-### R2ModMan
-1. Go to the [thunderstore page](https://thunderstore.io/c/lethal-company/p/LessonLethal/BetterUI/)
+### Installing From A Profile: (Option A)
+1. **Open the R2ModMan program**
+2. Select the profile you want to add this mod to and then click the `Select profile` button
+3. On the left side under **MODS** category, click the `Online` option
+4. After the mods load on the right, at the top search for `BetterUI`
+5. Click anywhere in the  **BetterUI by LessonLethal** mod box to expand the box
+6. Click on the `Download` button
+7. Click on the `Download with dependencies` button
+
+### Installing From Thunderstore Website: (Option B)
+1. [Go to the Thunderstore page for this mod](https://thunderstore.io/c/lethal-company/p/LessonLethal/BetterUI/)
 2. Click `Install with Mod Manager`
-
-### Thunderstore Manager
-(if the above doesn't work for you, open up the Thunderstore App to do the following)
-1. Click `Get mods`/`Online` (whatever it happens to be called)
-2. Search for BetterUI
-3. Download it
-
-## Manual
-1. Go to the [thunderstore page](https://thunderstore.io/c/lethal-company/p/LessonLethal/BetterUI/)
-2. Click `Manual Download`
-3. Unzip files
-4. Navigate to `LessonLethal-BetterUI-VERSION/BepinEx/plugins` and copy the contents
-5. Find your BepinEx installation's plugin folder, by default it would be in steamapps: `steamapps\common\Lethal Company\BepInEx\plugins`
-6. Create a folder titled `LessonLethal-BetterUI`
-7. Paste the contents into that folder
-
-If you did all of this correctly, it should load properly.
-
-The resulting file structure should look like this:
-```
-BepinEx
-├───cache
-├───config
-├───core
-├───patchers
-└───plugins
-    └───LessonLethal-BetterUI
-        └───BetterUI.dll
-```
+3. If there is a pop up asking you to *confirm opening a link with r2modman*, click the confirm button
+    - In different browsers this pop up will look and be different including the buttons, so instruction may vary
+    - If there is no pop up then your browser is preventing it, disable pop up blocker just for the Thunderstore website.
+___
+> *Having issues with this mod? Contact me on [Discord](https://discord.com/users/235518194612305920) or [Github](https://github.com/LessonLethal/BetterUI/issues).*
 ___
 ___
 
-# List of KeyboardShortcut Values 
+# List of KeyboardShortcut Values ⌨
+
+> [Referenced From This Documentation Page by Unity](https://docs.unity3d.com/ScriptReference/KeyCode.html)
+
+#### Use the `Value` column to find the hotkey you want to use then copy and paste the value into the config
+
 | Value           | Value Description                                                               |
 |---------------|---------------------------------------------------------------------------|
 | None          | Not assigned (never returned as the result of a keystroke).               |
