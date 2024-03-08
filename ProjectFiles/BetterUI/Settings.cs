@@ -17,7 +17,8 @@ namespace BetterUI
         // CLOCK
         internal static ConfigEntry<bool> clockEnabled;
         internal static ConfigEntry<KeyboardShortcut> clockHotkey;
-        internal static ConfigEntry<float> clockInsideVis;
+        internal static ConfigEntry<float> clockInsideShipVis;
+        internal static ConfigEntry<float> clockInsideFacilityVis;
         internal static ConfigEntry<bool> realTimeClock;
         // CHAT
         internal static ConfigEntry<bool> autoFadeChat;
@@ -38,7 +39,8 @@ namespace BetterUI
             // CLOCK
             clockEnabled = config.Bind("3_Clock", "Enable_Clock", true, "Enable the Clock Hotkey");
             clockHotkey = config.Bind("3_Clock", "Clock_Hotkey", new KeyboardShortcut(KeyCode.Keypad9), "Hotkey to toggle the visibility of the clock when you're inside the ship or a building (hidden by default)");
-            clockInsideVis = config.Bind("3_Clock", "Clock_Inside_Visibility", 0.3f, "Visibility of the clock when inside the ship or a building");
+            clockInsideShipVis = config.Bind("3_Clock", "Clock_Inside_Ship_Visibility", 0.3f, "Visibility of the clock when inside the ship");
+            clockInsideFacilityVis = config.Bind("3_Clock", "Clock_Inside_Facility_Visibility", 0.3f, "Visibility of the clock when inside a building");
             realTimeClock = config.Bind("3_Clock", "Real_Time_Clock", false, "Smooth the speed of time on the clock (appearance only)");
             // CHAT
             autoFadeChat = config.Bind("4_CHAT", "Auto_Fade_Chat", true, "Hides the chat box when not being used");

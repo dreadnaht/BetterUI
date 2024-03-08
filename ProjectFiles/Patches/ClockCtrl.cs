@@ -1,4 +1,5 @@
 using BepInEx.Configuration;
+using BetterUI;
 using GameNetcodeStuff;
 using HarmonyLib;
 using UnityEngine;
@@ -23,11 +24,17 @@ namespace BetterUI.Patches
     		if (instance != null) playerControllerB = instance.localPlayerController;
             if ((Object)(object)playerControllerB != null)
             {
-                // ONLY CHECK IF PLAYER IN SHIP OR INSIDE BUILDING
-                if (playerControllerB.isInHangarShipRoom || playerControllerB.isInsideFactory)
+                // ONLY CHECK IF PLAYER IN SHIP
+                if (playerControllerB.isInHangarShipRoom)
                 {
-                    __instance.Clock.targetAlpha = (state) ? ConfigCtrl.clockInsideVis.Value : 0f;
+                    __instance.Clock.targetAlpha = (state) ? ConfigCtrl.clockInsideShipVis.Value : 0f;
                     return false;
+                }
+                // ONLY CHECK IF PLAYER IS IN FACILITY
+                if (playerControllerB.isInsideFactory)
+                {
+	                __instance.Clock.targetAlpha = (state) ? ConfigCtrl.clockInsideFacilityVis.Value : 0f;
+	                return false;
                 }
     		}
     		return true;
