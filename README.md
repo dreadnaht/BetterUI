@@ -7,7 +7,7 @@
 
 ### Custom Settings & Hotkeys for the HUD, FPS, Clock, and Chat
 
-> *Want to ask questions, provide feedback, or contribute? Contact me  [Discord](https://discord.com/users/235518194612305920) or [Github](https://github.com/LessonLethal/BetterUI/issues).*
+> *Want to ask questions, provide feedback, or contribute? Contact me [Github](https://github.com/LessonLethal/BetterUI/issues).*
 
 ___
 
