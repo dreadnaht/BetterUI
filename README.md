@@ -1,7 +1,13 @@
+> [!CAUTION]
+> ### ⚠️ **OUTDATED AND NO LONGER BEING MAINTAINED** ⚠️
+> > You may contact me if you would like to take over this project
+
 # BetterUI v1.1.0 - [LessonLethal](https://linktr.ee/lessonlethal)
 
 ![Banner](https://i.imgur.com/hjSTjPn.png)
 
+
+![Static Badge](https://img.shields.io/badge/deprecated-555555?style=flat&logo=adblock&logoSize=auto&label=status&labelColor=55555&color=fa383e)
 [![Latest Version](https://img.shields.io/thunderstore/v/LessonLethal/BetterUI?logo=thunderstore&logoColor=white)](https://thunderstore.io/c/lethal-company/p/LessonLethal/BetterUI)
 [![Total Downloads](https://img.shields.io/thunderstore/dt/LessonLethal/BetterUI?logo=thunderstore&logoColor=white)](https://thunderstore.io/c/lethal-company/p/LessonLethal/BetterUI)
 
